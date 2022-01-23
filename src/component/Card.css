@@ -1,0 +1,38 @@
+:root {
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
+.main-card {
+  width: 250px;
+  height: 400px;
+  background-color: var(--white);
+  border-radius: 8px;
+  position: relative;
+}
+.qr-img {
+  margin: auto;
+  width: 230px;
+  height: 230px;
+  margin-top: 10px;
+  border-radius: 8px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.content h1 {
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  padding-top: 20px;
+  color: var(--dark-blue);
+}
+.content h3 {
+  color: var(--grayish-blue);
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
